@@ -5,7 +5,7 @@ const cors = require("cors");
 const http = require("http").Server(server);
 const io = require("socket.io")(http, {
   cors: {
-    origin: "http://localhost:5173", // Atualize para a origem do seu cliente React
+    origin: "https://app-avaliacao-wesleyestevam.vercel.app/", // Atualize para a origem do seu cliente React
     methods: ["GET", "POST"],
   },
 });
